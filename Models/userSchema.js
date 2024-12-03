@@ -9,9 +9,7 @@ const PostSchema = {
    bio:{type:String},
    posts:[{type:mongoose.Types.ObjectId,ref:"Post"}],
     following:[{type:mongoose.Types.ObjectId,ref:"useSchema"}],
-    followers:[{type:mongoose.Types.ObjectId,ref:"useSchema"}](
-
-    )
+    followers:[{type:mongoose.Types.ObjectId,ref:"useSchema"}]
 }
 
 const useModel = mongoose.model("users",userSchema);
