@@ -1,6 +1,3 @@
-
-const {Schema,Mongoose, default: mongoose }= require ("mongoose")
-
 const { Schema, mongoose } = require("mongoose")
  
 const postSchema = new Schema({
